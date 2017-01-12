@@ -33,7 +33,9 @@ DIFF - d*f'(x) = d^2*f''(x)/2
 I think I may be playing fast with math, but I'm not sure. I'm reducing it to one dimension by
 picking my direction of gradient. And then, I say that my update direction is LR*|GRAD|. So, the amount the slope should change in the distance it goes is LR*|GRAD|*|f''| (where f'' is evaluated in the direction of the gradient). So the amount the total should change is LR^2*GRAD^2*f''.
 
-
+Feeling pretty good today, let's redo it. 
+If you have f(x,y) = 2x + 4y. The gradient is pretty clearly 2,4. That's because if you go a length of one in this direction:
+What's one in this direction? It's (2,4) / sqrt(2^2+4^2). sqrt(20) = 2*sqrt(5). So you get (sqrt(5)/2, sqrt(5))
 
 
 
