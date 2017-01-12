@@ -12,8 +12,8 @@ BATCH_SIZE = 2048
 LR_ORIG = 1e-6
 MAX_LR = 0.1
 
-# model = one_layer_model(LR_ORIG, MAX_LR)
-model = two_layer_model(LR_ORIG, MAX_LR)
+model = one_layer_model(LR_ORIG, MAX_LR)
+# model = two_layer_model(LR_ORIG, MAX_LR)
 
 
 
