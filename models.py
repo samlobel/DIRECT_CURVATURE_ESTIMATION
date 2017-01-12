@@ -23,6 +23,7 @@ def get_squared_sum_of_list_of_parameters(array_of_params):
   return tf.add_n(squares)
 
 def calculate_second_derivative(err_diff, lr, grad_size_squared):
+  #Negative is good, positive is bad!
   # This is absolute valued to death. I can simplify this, for sure.... Because now I need the sign!
   # return 2*tf.abs((tf.abs(err_diff) - tf.abs(lr*grad_size_squared)) / (lr*lr*grad_size_squared)) #check this out later...
   # return 2*(err_diff - lr*grad_size_squared) / (lr*lr*grad_size_squared) #check this out later...
